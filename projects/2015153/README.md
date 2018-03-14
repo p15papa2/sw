@@ -25,5 +25,5 @@ var music = new Audio ("notification.mp3"); <br/>
 		music.play(); <br/>
 ```
 
-- Link για το αποθετήριο: <br/>
-- Link για το εκτελέσιμο: <br/>
+- Link για το αποθετήριο: https://github.com/p15papa2/D3js-uk-political-donations/tree/gh-pages <br/>
+- Link για το εκτελέσιμο: https://p15papa2.github.io/D3js-uk-political-donations/ <br/>
