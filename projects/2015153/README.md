@@ -7,6 +7,6 @@
 
 ## Αρχικό έργο και ενδιάμεση αναφορά προόδου (25%), 14 Μαρτίου
 
--Σε πρώτη φάση ορισα τον συνδεσμο της σελιδας μου: https://p15papa2.github.io/D3js-uk-political-donations/ <br/>
+- Σε πρώτη φάση ορισα τον συνδεσμο της σελιδας μου: https://p15papa2.github.io/D3js-uk-political-donations/ <br/>
 αλλάζοντας το αρχικό .html αρχείο απο full_viz.html σε index.html.
 
