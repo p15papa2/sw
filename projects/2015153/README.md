@@ -10,3 +10,8 @@
 - Σε πρώτη φάση ορισα τον συνδεσμο της σελιδας μου: https://p15papa2.github.io/D3js-uk-political-donations/ <br/>
 αλλάζοντας το αρχικό .html αρχείο απο full_viz.html σε index.html.
 
+- Στην συνέχει για την αλλαγή των χρωμάτων στις μπαλες ορισα ατομικά το καθε χρώμα ως #3399ff, #9966ff, #ff9933 στο αρχειο chart.js <br/>
+var fill = d3.scale.ordinal().range(["#3399ff", "#9966ff", "#ff9933"]); <br/>
+
+- 
+
