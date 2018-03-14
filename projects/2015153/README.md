@@ -12,7 +12,7 @@
 
 - Στην συνέχεια για την αλλαγή των χρωμάτων στις μπαλες ορισα ατομικά το καθε χρώμα ως #3399ff, #9966ff, #ff9933 στο αρχειο chart.js <br/>
 ```
-var fill = d3.scale.ordinal().range(["#3399ff", "#9966ff", "#ff9933"]); <br/>
+var fill = d3.scale.ordinal().range(["#3399ff", "#9966ff", "#ff9933"]);
 ```
 
 - Οσο αναφορά τον ηχο στο μενού. Ανέβασα ενα καινούριο αρχειο με το ονομα notification.mp3 το οποιο με την προσθηκη της var music το εβαλα να ακουγεται οταν πατήσει ο επισκέπτης πανω σε κάποιο κουμπί, με τις εντολές: <br/>
@@ -22,7 +22,7 @@ var music = new Audio ("notification.mp3");
 και μεσα στο function transition(name):
 ```
     music.currentTime=0;
-		music.play();
+    music.play();
 ```
 
 - Link για το αποθετήριο: https://github.com/p15papa2/D3js-uk-political-donations/tree/gh-pages <br/>
