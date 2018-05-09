@@ -39,7 +39,18 @@ function onclick(query) {
 
 ```
 
+-Επισης πάλι στο αρχείο chart για να ακουγετε η δωρεά και η ονομασια του δωριτή πρόσθεσα.
+```
+try {
+        var msg = new SpeechSynthesisUtterance();
+        msg.text = donor + ". " + comma(amount) + " pounds";
+        speechSynthesis.speak(msg);
 
+    } catch (e) {
+        console.log("Voice Error: " + e);
+   }
+
+```
 
 
 
