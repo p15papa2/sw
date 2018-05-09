@@ -25,7 +25,7 @@ var music = new Audio ("notification.mp3");
     music.play();
 ```
 
--Για να κανει ζουμ. Προσθεσα το function on click στο αρχειο chart.js.
+-Για να κανει google search. Προσθεσα το function on click στο αρχειο chart.js.
 ```
 function onclick(query) {
     console.log("query" + query);
@@ -49,6 +49,19 @@ try {
     } catch (e) {
         console.log("Voice Error: " + e);
    }
+
+```
+
+-Για το ζουμ προσθεσα στο αρχειο css το απο κατω. Ενω βαζουμε και στο αρχειο html class="zoom" ωστε να κανουμε ζουμ σε οποιο κοματι θελουμε.
+```
+.zoom {
+    transition: transform .2s;
+}
+
+.zoom:hover {
+    transform: scale(1.5);
+    background-color: white;
++} 
 
 ```
 
