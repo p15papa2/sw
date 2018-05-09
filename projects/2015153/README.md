@@ -67,6 +67,16 @@ try {
 
 ## Παραδοτέο 2 (25%), 9 Μαίου
 
+-Για να εμφανιζονταί οι δωρητές πανω πανω προσθετω στο αρχειο chart.js
+
+```
+$("#list").append("<li><img src='" + imageFile + "' height='42' width='42' onError='this.src=\"https://github.com/favicon.ico\";'></li>");
+```
+και στο html
+
+```
+<ul id="list"></ul>
+```
 
 
 - Link για το αποθετήριο: https://github.com/p15papa2/D3js-uk-political-donations/tree/gh-pages <br/>
