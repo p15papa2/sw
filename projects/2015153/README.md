@@ -25,5 +25,24 @@ var music = new Audio ("notification.mp3");
     music.play();
 ```
 
+-Για να κανει ζουμ. Προσθεσα το function on click στο αρχειο chart.js.
+```
+function onclick(query) {
+    console.log("query" + query);
+    var win = window.open('https://www.google.gr/search?q=' + query, '_blank');
+    if (win) {
+        win.focus();
+    } else {
+        alert("Your browser is blocking popup windows");
+    }
+}
+
+```
+
+
+
+
+
+
 - Link για το αποθετήριο: https://github.com/p15papa2/D3js-uk-political-donations/tree/gh-pages <br/>
 - Link για το εκτελέσιμο: https://p15papa2.github.io/D3js-uk-political-donations/ <br/>
